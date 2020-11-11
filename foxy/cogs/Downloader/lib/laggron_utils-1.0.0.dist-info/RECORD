@@ -1,0 +1,12 @@
+laggron_utils-1.0.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+laggron_utils-1.0.0.dist-info/LICENCE,sha256=U5J70Lc504yHoKgiNv2bBwwt__EcDBGb5QNyAF1QR60,35815
+laggron_utils-1.0.0.dist-info/METADATA,sha256=09laQh00NrBSVSH7vWAJgxBCvaDcY7qyK_tv5fU9eog,1164
+laggron_utils-1.0.0.dist-info/RECORD,,
+laggron_utils-1.0.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+laggron_utils-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+laggron_utils-1.0.0.dist-info/direct_url.json,sha256=Ov8wk9TYD_zLUW5-dN7c6Yc9yOwmxjbs6GY636KEBd8,134
+laggron_utils-1.0.0.dist-info/top_level.txt,sha256=tLYFp77Iy-XdkyJhf1sHi5AkRL2qxwvcsgMAK7DYq2s,14
+laggron_utils/__init__.py,sha256=4D-w4JjGnIRIy4wvc-DJNT1HlAOf11ZW6U_li8w48CY,61
+laggron_utils/__pycache__/__init__.cpython-38.pyc,,
+laggron_utils/__pycache__/logging.cpython-38.pyc,,
+laggron_utils/logging.py,sha256=JT4AAb8vrvxrW6DBlEza1vBYDppi634Mpzrl2JCD7PI,2241

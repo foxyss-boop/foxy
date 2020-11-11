@@ -1,0 +1,16 @@
+{
+    "author": ["Predeactor"],
+    "end_user_data_statement": "This cog does not save data about users persistently.",
+    "description": "Let users complete a captcha before entering the server.",
+    "short": "Captcha cog.",
+    "install_msg": "Hello, this cog is in beta state, this mean you can encounter bugs and/or unexpected behavior.\nThis cog work but you are advised to join my support server and report me anything that happened wrong: https://discord.gg/zg6ydua. Otherwise, enjoy Captcher.",
+    "requirements": ["captcha"],
+    "min_bot_version": "3.4.0",
+    "tags": [
+        "security",
+        "protection",
+        "captcha",
+        "new",
+        "defender"
+    ]
+}

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: proxyembed
+Version: 0.0.4
+Summary: Auto-unwrapping d.py embeds for use with Red,
+Home-page: https://github.com/zephyrkul/proxyembed
+License: UNKNOWN
+Author: Zephyrkul
+Classifier: License :: OSI Approved :: MIT License

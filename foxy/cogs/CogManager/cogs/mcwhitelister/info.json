@@ -1,0 +1,15 @@
+{
+    "author": [
+        "Dav"
+    ],
+    "description": "Manage your minecraft server whitelist from within discord.",
+    "hidden": false,
+    "install_msg": "Thank you for installing mcwhitelister. This instance of Red needs to be installed on the same machine as your minecraft server. With this cog installed you give members of your discord access to your server whitelist.",
+    "short": "Sync Minecraft whitelist with discord.",
+    "tags": [
+        "Minecraft",
+        "Whitelist",
+        "Auromation"
+    ],
+    "end_user_data_statement": "This cog stores end user data in order to allow it to whitelist players on a minecraft server. It stores minecraft player names(and user IDs) as well as discord user IDs."
+}
