@@ -1,3 +1,0 @@
-[console_scripts]
-gsbl = gsbl.__main__:main
-
