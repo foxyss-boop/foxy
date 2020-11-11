@@ -1,0 +1,74 @@
+[2020-11-11 08:54:44] [ERROR] red.jackcogs.autogist: No valid token found
+[2020-11-11 08:55:14] [ERROR] red: Failed to load package bday (timeout)
+Traceback (most recent call last):
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\core\bot.py", line 893, in pre_flight
+    await asyncio.wait_for(self.load_extension(spec), 30)
+  File "C:\Program Files\Python38\lib\asyncio\tasks.py", line 490, in wait_for
+    raise exceptions.TimeoutError()
+asyncio.exceptions.TimeoutError
+[2020-11-11 08:55:23] [ERROR] red.core.cogs.Streams: Twitch OAuth2 API request failed with status code 400 and error message: missing client id
+[2020-11-11 08:55:24] [ERROR] red.cogs.Audio.cog.Tasks.lavalink: Unhandled exception whilst starting internal Lavalink server, aborting...
+Traceback (most recent call last):
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\cogs\audio\core\tasks\lavalink.py", line 49, in lavalink_attempt_connect
+    await self.player_manager.start(java_exec)
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\cogs\audio\manager.py", line 111, in start
+    await self.maybe_download_jar()
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\cogs\audio\manager.py", line 332, in maybe_download_jar
+    if not (LAVALINK_JAR_FILE.exists() and await self._is_up_to_date()):
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\cogs\audio\manager.py", line 295, in _is_up_to_date
+    args = await self._get_jar_args()
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\cogs\audio\manager.py", line 140, in _get_jar_args
+    raise RuntimeError("You must install Java 11 for Lavalink to run.")
+RuntimeError: You must install Java 11 for Lavalink to run.
+[2020-11-11 09:03:21] [WARNING] red.main: Please do not use Ctrl+C to Shutdown Red! (attempting to die gracefully...)
+[2020-11-11 09:03:21] [ERROR] red.main: Received KeyboardInterrupt, treating as interrupt
+[2020-11-11 09:03:21] [INFO] red.main: Signals.SIGINT received. Quitting...
+[2020-11-11 09:03:21] [INFO] red.main: Please wait, cleaning up a bit more
+[2020-11-11 09:03:21] [CRITICAL] red.main: Caught unhandled exception in task:
+Traceback (most recent call last):
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\__main__.py", line 517, in main
+    loop.run_forever()
+  File "C:\Program Files\Python38\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Program Files\Python38\lib\asyncio\windows_events.py", line 430, in select
+    self._poll(timeout)
+  File "C:\Program Files\Python38\lib\asyncio\windows_events.py", line 779, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\__main__.py", line 523, in main
+    loop.run_until_complete(shutdown_handler(red, signal.SIGINT))
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python38\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python38\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Program Files\Python38\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\podpo\redenv\lib\site-packages\redbot\__main__.py", line 426, in shutdown_handler
+    sys.exit(ExitCodes.SHUTDOWN)
+SystemExit: ExitCodes.SHUTDOWN
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python38\lib\asyncio\proactor_events.py", line 768, in _loop_self_reading
+    f.result()  # may raise
+  File "C:\Program Files\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Program Files\Python38\lib\asyncio\windows_events.py", line 457, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 995] The I/O operation has been aborted because of either a thread exit or an application request
+[2020-11-11 09:03:23] [CRITICAL] red.main: Caught unhandled exception in task: Task was destroyed but it is pending!
+[2020-11-11 09:03:23] [CRITICAL] red.main: Caught unhandled exception in task: Task was destroyed but it is pending!
+[2020-11-11 09:03:23] [CRITICAL] red.main: Caught unhandled exception in task: Task was destroyed but it is pending!
